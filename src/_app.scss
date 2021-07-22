@@ -1,0 +1,15 @@
+.app__container {
+  display: flex;
+  margin-top: 10vh;
+}
+
+.app__main {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  margin: 1rem;
+}
+
+::-webkit-scrollbar {
+  width: 0; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
